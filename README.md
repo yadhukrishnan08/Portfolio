@@ -1,32 +1,49 @@
-# My Portfolio Website - Overview 🚀
+# Yadhukrishnan's Portfolio Website 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Welcome to the repository for my personal portfolio website! This project showcases my skills, experience, and the technical journey I've embarked on as a B.Tech Computer Science student.
+
+Feel free to explore the code, draw inspiration, and see how I've implemented modern web technologies.
 
 ---
 
 ## ⚠️ Usage Notice
 
-This project is shared for learning purposes only.
+This project is shared for learning and demonstration purposes.
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+Please **do NOT**:
+- Clone or replicate the full website or design for your own use.
+- Use this project for commercial or client work.
+- Repost it with minor content changes as your own.
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+If you use parts of the code for learning, please provide proper credit linking back to this repository.
 
-Build your own version — don’t just copy.
+Build your own unique version — that's where the real learning happens!
 
-— Moncy Yohannan
+— Yadhukrishnan
 
 ---
 
-## 🛠️ Instructions
+## 🚀 Getting Started
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yadhukrishnan08/Portfolio.git
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 🛠️ GSAP Plugins
+
+I have used trial versions of GSAP Club plugins for specific animations.  
+⚠️ **Note**: Trial plugins are for local development only and cannot be used for production hosting.
 
 For official GSAP Club plugins, refer here:  
 https://gsap.com/docs/v3/Installation/
