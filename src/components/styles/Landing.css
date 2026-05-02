@@ -200,49 +200,55 @@
 }
 .landing-info h2 {
   margin: 0;
-  margin-top: -20px;
-  margin-left: 20px;
   font-family: "Geist", sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 40px;
-  position: relative;
-  display: flex;
-  flex-wrap: nowrap;
+  line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.landing-h2-info-1 {
-  position: absolute;
-  top: 0;
+.landing-roles {
+  overflow: hidden;
+  height: 50px;
+  margin-top: 4px;
+  margin-left: -5px;
 }
-h2.landing-info-h2 {
-  color: #c481ff;
-  font-size: 42px;
-  width: 120%;
+.landing-roles-track {
+  animation: rotateRoles 9s ease-in-out infinite;
+}
+.landing-role {
   margin: 0;
   font-family: "Geist", sans-serif;
   font-weight: 600;
-  position: relative;
-  margin-left: -5px;
+  font-size: 42px;
+  line-height: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #c481ff;
 }
-.landing-h2-2 {
-  position: absolute;
-  top: 0;
+.landing-subtext {
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
+  max-width: 300px;
 }
-.landing-info-h2::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 120%;
-  z-index: 3;
-  background-image: linear-gradient(
-    0deg,
-    var(--backgroundColor) 40%,
-    rgba(0, 0, 0, 0) 110%
-  );
-  top: 0;
-  left: 0;
+@keyframes rotateRoles {
+  0%, 25% {
+    transform: translateY(0);
+  }
+  33%, 58% {
+    transform: translateY(-50px);
+  }
+  66%, 91% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 @media screen and (min-width: 500px) {
   .landing-circle2 {
@@ -261,12 +267,13 @@ h2.landing-info-h2 {
     font-size: 30px;
     line-height: 30px;
   }
-  .landing-info h2 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  h2.landing-info-h2 {
+  .landing-role {
     font-size: 38px;
+    line-height: 46px;
+    height: 46px;
+  }
+  .landing-roles {
+    height: 46px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -283,12 +290,13 @@ h2.landing-info-h2 {
   .landing-info h3 {
     font-size: 25px;
   }
-  .landing-info h2 {
-    font-size: 45px;
-    line-height: 42px;
+  .landing-role {
+    font-size: 50px;
+    line-height: 58px;
+    height: 58px;
   }
-  h2.landing-info-h2 {
-    font-size: 55px;
+  .landing-roles {
+    height: 58px;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -348,11 +356,12 @@ h2.landing-info-h2 {
   .landing-info h3 {
     font-size: 35px;
   }
-  .landing-info h2 {
+  .landing-role {
     font-size: 65px;
-    line-height: 62px;
+    line-height: 72px;
+    height: 72px;
   }
-  h2.landing-info-h2 {
-    font-size: 75px;
+  .landing-roles {
+    height: 72px;
   }
 }

@@ -1,65 +1,50 @@
-# My Portfolio Website - Overview 🚀
+# Yadhukrishnan - Portfolio Website 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Welcome to my personal portfolio! This project showcases my skills, experience, and projects as a B.Tech Computer Science student.
 
----
+## 🛠️ Tech Stack
 
-## ⚠️ Usage Notice
+- **Frontend:** React, TypeScript, Vite
+- **Styling:** CSS (Vanilla), GSAP for animations
+- **3D Graphics:** Three.js, React Three Fiber, Rapier (Physics)
+- **Deployment:** Vercel / GitHub Pages
 
-This project is shared for learning purposes only.
+## ✨ Features
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+- **Modern UI/UX:** Sleek dark mode design with vibrant accents.
+- **Dynamic Animations:** Interactive elements powered by GSAP and Three.js.
+- **Responsive Design:** Optimized for all screen sizes.
+- **Project Showcase:** Detailed view of my academic and personal projects.
+- **Contact Integration:** Easy way to reach out via social links or contact form.
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+## 🚀 Getting Started
 
-Build your own version — don’t just copy.
+To run this project locally, follow these steps:
 
-— Moncy Yohannan
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yadhukrishnan08/portfolio.git
+   ```
 
----
+2. **Navigate to the project directory:**
+   ```bash
+   cd portfolio
+   ```
 
-## 🛠️ Instructions
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
-
----
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+This project is licensed under the MIT License.
 
-See the LICENSE file for full details
+---
 
+Built with ❤️ by [Yadhukrishnan](https://github.com/yadhukrishnan08)

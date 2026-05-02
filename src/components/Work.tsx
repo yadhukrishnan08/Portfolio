@@ -53,23 +53,48 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>MedLink</h4>
+                  <p>Healthcare / Community Support</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>React, Node.js, MySQL</p>
             </div>
-          ))}
+            <WorkImage image="/images/placeholder.webp" alt="MedLink - Healthcare Support System" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Fleet Scheduler</h4>
+                  <p>Logistics / Public Transport</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Full-Stack Web Dev</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Fleet Scheduler - Transport Management" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Smart Parking System</h4>
+                  <p>IoT / Utility</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Embedded Systems / Web Integration</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Smart Parking System - IoT Solution" />
+          </div>
         </div>
       </div>
     </div>

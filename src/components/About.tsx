@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I am a Computer Science student at APJ Abdul Kalam Technological
+          University with a passion for building functional, scalable web
+          applications. I bridge the gap between complex backend logic and
+          intuitive frontend design, always looking for ways to integrate AI
+          to solve real-world problems.
         </p>
       </div>
     </div>

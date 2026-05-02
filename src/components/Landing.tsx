@@ -9,21 +9,21 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-intro">
             <h2>Hello! I'm</h2>
             <h1>
-              MONCY
+              YADHU
               <br />
-              <span>YOHANNAN</span>
+              <span>KRISHNAN</span>
             </h1>
           </div>
           <div className="landing-info">
-            <h3>A Creative</h3>
-            <h2 className="landing-info-h2">
-              <div className="landing-h2-1">Designer</div>
-              <div className="landing-h2-2">Developer</div>
-            </h2>
-            <h2>
-              <div className="landing-h2-info">Developer</div>
-              <div className="landing-h2-info-1">Designer</div>
-            </h2>
+            <h3>Computer Science</h3>
+            <div className="landing-roles">
+              <div className="landing-roles-track">
+                <h2 className="landing-role">Student</h2>
+                <h2 className="landing-role">Developer</h2>
+                <h2 className="landing-role">AI Enthusiast</h2>
+              </div>
+            </div>
+            <p className="landing-subtext">Crafting intelligent web solutions and exploring the future of local AI.</p>
           </div>
         </div>
         {children}
